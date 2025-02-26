@@ -1,116 +1,76 @@
+<h2 align="center">
+  Portfolio Website - v2.0<br/>
+  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+</h2>
+<div align="center">
+  <img alt="Demo" src="./Images/readme-img1.png" />
+</div>
 
+<br/>
 
-# 🚀 **Solana Copy Trading Bot** 🤖  
+<center>
 
-🔗 **Powered by:** Jupiter Aggregator, Solana Web3.js, and SPL Token libraries.  
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
+![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
 
-This bot monitors Jupiter swaps in real-time 🌍, replicates trades 🔄, and optimizes profits 💰 by executing trades based on predefined market conditions.  
+</center>
 
----
+<h3 align="center">
+    🔹
+    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    🔹
+    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
+</h3>
 
-## 📖 **Features**  
+## TL;DR
 
-1. **Real-Time Monitoring** 🕒:  
-   - Leverages WebSocket to track Jupiter swap transactions live.  
-   - Extracts critical data like token addresses, amounts, and prices.  
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
 
-2. **Smart Trade Execution** 🎯:  
-   - Automatically buys or sells based on swap details.  
-   - Ensures optimal SOL balance and maintains reserves.  
+## Built With
 
-3. **Detailed Metadata** 📊:  
-   - Fetches token metadata like name, symbol, and logo using Metaplex SDK.  
-   - Calculates prices and value in USD.  
+My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
-4. **Customizable** 🔧:  
-   - Easily configure the target wallet, buy/sell limits, and RPC endpoints.  
+This project was built using these technologies.
 
-5. **Analytics** 📈:  
-   - Logs transaction details with swap values and links to Solscan for transparency.  
+- React.js
+- Node.js
+- Express.js
+- CSS3
+- VsCode
+- Vercel
 
----
+## Features
 
-## 📦 **Installation**  
+**📖 Multi-Page Layout**
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/solana-copy-trading-bot.git
-   cd solana-copy-trading-bot
-   ```
+**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
 
-2. Install dependencies:  
-   ```bash
-   npm install
-   ```
+**📱 Fully Responsive**
 
-3. Add your environment variables:  
-   - Create a `.env` file with the following:  
-     ```
-     PRIVATE_KEY=<your_wallet_private_key>
-     RPC_ENDPOINT=https://api.mainnet-beta.solana.com
-     RPC_WEBSOCKET_ENDPOINT=wss://api.mainnet-beta.solana.com
-     TARGET_WALLET=<target_wallet_public_key>
-     MAXIMUM_BUY_AMOUNT=<max_amount_in_SOL>
-     JUP_AGGREGATOR=<jupiter_program_id>
-     ```
+## Getting Started
 
----
+Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
 
-## 🚀 **Usage**  
+## 🛠 Installation and Setup Instructions
 
-1. Start the bot:  
-   ```bash
-   npm run start
-   ```  
+1. Installation: `npm install`
 
-2. The bot will:  
-   - Monitor Jupiter swaps and log the details.  
-   - Execute trades automatically for eligible transactions.  
-   - Display transaction results in the console.  
+2. In the project directory, you can run: `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The page will reload if you make edits.
 
-## 🛠 **How It Works**  
+## Usage Instructions
 
-1. **Transaction Monitoring**:  
-   The bot subscribes to real-time Solana transactions using WebSocket.  
+Open the project folder and Navigate to `/src/components/`. <br/>
+You will find all the components used and you can edit your information accordingly.
 
-2. **Data Extraction**:  
-   - Fetches transaction logs to determine swap details.  
-   - Fetches token metadata for better trade insights.  
+### Show your support
 
-3. **Trade Execution**:  
-   - Buys or sells SOL or tokens based on predefined logic.  
-   - Executes transactions with Jupiter’s aggregator for best prices.  
+Give a ⭐ if you like this website!
 
----
-
-## ⚡ **Example Output**  
-
-```plaintext
-🚀 Swap: SOL - USDC  
-💰 Amount: 2 SOL - 100 USDC  
-💵 Amount in USD: 50 $ - 100 $  
-🔗 Tx: https://solscan.io/tx/yourtxhash  
-```
-
----
-
-## 🛡 **Safety Features**  
-
-- Ensures sufficient SOL balance before executing trades.  
-- Rejects invalid swaps or unsupported tokens.  
-
----
-
-## 💡 **Contributing**  
-
-Feel free to submit PRs 🛠 or raise issues 🚨. Your contributions are always welcome!  
-
----
-
-## 👨‍💻 **Author**  
-
-👾 Developed by **g0drlc** | [Telegram](https://t.me/g0drlc)
-
-🌟 **Happy Trading!** 🌟  
+<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
